@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1170px;
+
+}
+
+.header {
+    align-items: baseline;
+    padding: 20px;
+}
+
+.cnsfid {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', serif;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: capitalize;
+    padding-top: 45px;
+}
+
+.tech {
+    font-size: 18px;
+
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    position: relative;
+    text-align: right;
+    left: 150px;
+
+}
+
+.subheader {
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+.header2 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.text2 {
+    margin-top: 25px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "▶ ";
+    color: purple;
+}
+
+
+.headernew2 {
+    text-align: center;
+}
+
+.uvg1 {
+    padding-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightblue;
+}
+
+.tdcolom2 {
+    margin-bottom: 10px;
+}
+
+.td1 {
+    line-height: 25px;
+}
+
+.na {
+    font-weight: bold;
+}
+
+.p1 {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.geo {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.krg {
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+.kzkz {
+    border-bottom: 2px solid black;
+}
+
+.td2 {
+    line-height: 30px;
+}
+
+.mme {
+    border-bottom: 2px solid black;
+    display: inline-block
+}
+
+.modulelink {
+    display: block;
+    color: #3F2AFF;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.button1 {
+    display: block;
+    width: 400px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 400px;
+}
+
+.boxs1 {
+    background-image: url(img/menedzhment._effektivnoe_obshchenie_i_celepolaganie._opyt_google.jpg);
+    background-size: 350px;
+}
+
+.imgcsn {
+    width: 300px;
+    position: relative;
+    right: 180px;
+    bottom: 230px;
+}
+
+.boxs2 {
+    background-image: url(img/proekt.jpg);
+    background-size: 320px;
+    background-position: right bottom;
+}
+
+.boxs3 {
+    background-image: url(img/project-management-2048x1379.jpg);
+    background-size: 420px;
+    background-position: right bottom;
+}

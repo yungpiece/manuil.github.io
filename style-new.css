@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 100px;
+    padding: 0;
+}
+
+.newcontainer-module {
+    width: 1170px;
+}
+
+
+.Modulelinks {
+    padding-top: 25px;
+  }
+  
+  .modul-block {
+    column-count: 2;
+    /* font-size: 0px; */
+    padding:  0 ;
+    margin-bottom: 25px;
+    list-style: none;
+  }
+
+  .moduless {
+    display: inline-block;
+    font-size: 16px;
+    width: 572px;
+    height: 505px;
+    box-shadow: 8px 11px 25px;
+    margin-bottom: 25px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    /* vertical-align: top; */
+    padding: 205px 25px 25px 25px;
+  
+  }
+
+  .span1 {
+    color: green;
+    font-weight: bold;
+    border-bottom: 2px solid green;
+  }
+
+  .number-item {
+    position: absolute;
+    right: 25px;
+    font-size: 40px;
+    bottom: 25px;
+    color: rgba(234, 234, 234, 1);
+}
+
+.img1 {
+    background-image: url(img/79192_picture_97f5fbe8087acea279b230cf0d440e4b1e7666ca.jpg);
+    background-size: 350px;
+    background-position-x: right;
+}
+
+.img2 {
+    background-image: url(img/photo.jpg);
+    background-size: 350px;
+    background-position-x: right;
+}
+
+.img3 {
+    background-image: url(img/orig.jpeg);
+    background-size: 460px;
+    background-position-x: right;
+}
+
+.img4 {
+    background-image: url(img/zasuha-v-kazahstane-vozmozhno-vvedenie-chp-dlya-pomoshhi-fermeram-bizmedia.kz_.jpg);
+    background-size: 400px;
+    background-position-x: right;
+}
+
+.header-module {
+    color: red;
+    font-weight: bolder ;
+}
